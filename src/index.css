@@ -1,0 +1,14 @@
+*{ padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ background-color: var(--color-background);
+}
+/* PALETA DE COLORES */
+
+:root {
+  --color-primary: #4F709C;
+  --color-secondary: #D8C4B6;;
+  --color-background: #F5EFE7;
+  --color-text:   #213555;
+  --color-btn-text: #fff;
+}

@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "ciudad": "Osaka",
+      "pais": "Japon",
+      "imagen": "public/Osaka Japon.jpg",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "ciudad": "Queenstown",
+      "pais": "Nueva Zelanda",
+      "imagen": "/public/queenstown-nueva-zelanda.jpg",
+      "url": ""
+    },
+    {
+      "id": 3,
+      "ciudad": "Cartagena",
+      "pais": "Colombia",
+      "imagen": "public/cartagena-colombia-1.jpg",
+      "url": ""
+    },
+    {
+      "id": 4,
+      "ciudad": "Ciudad del Cabo",
+      "pais": "Sudafrica",
+      "imagen": "public/ciudad-del-cabo-sudafrica.jpg",
+      "url": ""
+    },
+    {
+      "id": 5,
+      "ciudad": "Delhi",
+      "pais": "India",
+      "imagen": "public/Delhi india.jpg",
+      "url": ""
+    },
+    {
+      "id": 6,
+      "ciudad": "El Cairo",
+      "pais": "Egipto",
+      "imagen": "public/EL cairo Egipto.jpg",
+      "url": ""
+    },
+    {
+      "id": 7,
+      "ciudad": "San Petesburgo",
+      "pais": "Rusia",
+      "imagen": "public/san-petersburgo-rusia.jpg",
+      "url": ""
+    },
+    {
+      "id": 8,
+      "ciudad": "Shangai",
+      "pais": "China",
+      "imagen": "public/Shangai China.jpg",
+      "url": ""
+    },
+    {
+      "id": 9,
+      "ciudad": "Sidney",
+      "pais": "Australia",
+      "imagen": "public/sidney-australia.jpg",
+      "url": ""
+    },
+    {
+      "id": 10,
+      "ciudad": "Amsterdam",
+      "pais": "Paises Bajos",
+      "imagen": "public/amsterdam-paises-bajos-1.jpg",
+      "url": ""
+    },
+    {
+      "id": 11,
+      "ciudad": "Italia",
+      "pais": "Venecia",
+      "imagen": "public/Venecia Italia.jpg",
+      "url": ""
+    },
+    {
+      "id": 12,
+      "ciudad": "Lisboa",
+      "pais": "Portugal",
+      "imagen": "public/lisboa-portugal.jpg",
+      "url": ""
+    }
+]  
+

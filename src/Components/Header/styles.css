@@ -1,0 +1,82 @@
+
+:root {
+    --color-primary: #4F709C;
+    --color-secondary: #D8C4B6;;
+    --color-background: #F5EFE7;
+    --color-text:   #213555;
+    --color-btn-text: #fff;
+  }
+
+
+  .header {
+    background-color: var(--color-text);
+    color: var(--color-secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    background-color: var(--color-text);
+    color: var(--color-secondary);
+}
+
+.nav-and-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--color-text);
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    background-color: var(--color-text);
+}
+
+.nav-link {
+    background-color: var(--color-text);
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--color-btn-text);
+}
+
+.login-button {
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    color: var(--color-btn-text);
+}
+
+/* Media Queries */
+
+/* Small screens */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-and-button {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .login-button {
+        padding: 8px 16px;
+    }
+}
