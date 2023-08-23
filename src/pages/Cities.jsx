@@ -1,13 +1,20 @@
 import React from 'react'
+import Frame1 from "../Components/Frame1"
+import ComCities from "../Components/ComCities"
+
+
+
 
 function Cities() {
   return (
-    <div className='container'>
-      <spam>
-
-        <h2>WAIT FOR IT!</h2>
-      </spam>
-    </div>
+   <>
+     < Frame1/>
+     <ComCities/>
+    
+    
+    
+   
+    </>
   )
 }
 

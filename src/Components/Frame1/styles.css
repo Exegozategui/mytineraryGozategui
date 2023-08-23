@@ -1,0 +1,46 @@
+
+
+:root {
+  --color-primary: #4F709C;
+  --color-secondary: #D8C4B6;;
+  --color-background: #F5EFE7;
+  --color-text:   #213555;
+  --color-btn-text: #fff;
+}
+
+
+.text-cont {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+.text-cont h4{
+  color:var(--color-text) ;
+}
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas, como tablets y móviles */
+  .text-cont {
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos para pantallas aún más pequeñas, como móviles en modo retrato */
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+}
