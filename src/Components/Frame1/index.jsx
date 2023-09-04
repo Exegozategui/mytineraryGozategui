@@ -5,6 +5,7 @@ function index() {
   return (
 <div className='container'>
  <div className='text-cont'>
+  
             <h2>Cities</h2>
             <h4>
               Collection of the most beatifull <br />

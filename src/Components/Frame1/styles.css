@@ -11,8 +11,11 @@
 
 .text-cont {
   text-align: center;
-  margin: 0 auto;
   padding: 20px;
+  height: 20vh;
+  background-color: var(--color-background);
+ 
+         
 
 }
 .text-cont h4{
@@ -25,11 +28,12 @@
     padding: 10px;
   }
   
-  h2 {
+  .text-cont h2 {
     font-size: 24px;
+    ;
   }
   
-  h3 {
+  .text-cont h3 {
     font-size: 18px;
   }
 }

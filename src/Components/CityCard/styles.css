@@ -47,13 +47,19 @@
 }
 
 .cardCity__btn {
-  background-color: var(--color-primary);
-  color: var(--color-btn-text);
+  background-color: var(--color-text);
+   color: var(--color-secondary);
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 5px;
   display: inline-block;
   margin-top: 10px;
+}
+
+  
+.cardCity__btn:hover{
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 @media (max-width: 768px) {
