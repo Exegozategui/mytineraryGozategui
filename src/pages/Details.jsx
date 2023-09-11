@@ -9,7 +9,7 @@ import ItineraryCard from '../Components/CardItineraries';
 import { getItinerariesByCity } from '../services/servicesItineraries'; // Importa la función de servicio
 
 function Details() {
-  const { id } = useParams();
+  const { id} = useParams();
   const [city, setCity] = useState({});
   const itineraries = useSelector((state) => state.itinerariesReducer.itineraries);
   const dispatch = useDispatch();
@@ -35,15 +35,15 @@ function Details() {
     <>
       <DetailsCard data={city} />
       <div className='container'>
-        {itineraries.length > 0 ? (
-          // Renderiza los itinerarios si existen
-          itineraries.map((itinerary) => (
-            <ItineraryCard key={itinerary.id} data={itinerary} />
-          ))
-        ) : (
-          // Muestra un mensaje si no hay itinerarios
-          <h2>There are no itineraries</h2>
-        )}
+      {itineraries && itineraries.length > 0 ? (
+  // Renderiza los itinerarios si existen
+  itineraries.map((itinerary) => (
+    <ItineraryCard key={itinerary.id} data={itinerary} />
+  ))
+) : (
+  // Muestra un mensaje si no hay itinerarios
+  <h2>There are no itineraries</h2>
+)}
         <small>
           <h3>Site under construction</h3>
         </small>
